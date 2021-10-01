@@ -1,24 +1,22 @@
 <br />
-<p align="center">
-    <a href="https://devchallenge.now.sh/">
-    <img src="https://trello-attachments.s3.amazonaws.com/590fa896d2d25e50583de620/500x500/0bdcc819ea145cb0167619c6d00f2174/D.png" alt="Logo" width="100" height="100">
-  </a>
-  
-  <h3 align="center">DevChallenge Hacktoberfest 2021</h3>
-
-  <p align="center">
-     <a href="https://www.devchallenge.com.br/">DevChallenge</a>    
-  </p>
+    <p align="center">
+        <a href="https://www.devchallenge.com.br/">
+            <img src="https://i.imgur.com/p0Qla3Q.png" alt="Logo" width="700" height="350">
+        </a>
+        <br>
+        <img align="center" src="https://i.imgur.com/K01Mixf.png" alt="Logo" width="600" height="100">
+        <br>
+        <h3 align="center">DevChallenge Hacktoberfest 2021</h3>
+   </p>
 
 ## Índice
 
 - [Sobre](#sobre)
 - [Como participar](#como-participar)
 - [Desafios](#desafios)
-- [Comunidade](#comunidade)
 
 # Sobre
-O DevChallenge Hacktoberfest tem como objetivo celebrar e incentivar 
+O <a href="https://www.devchallenge.com.br/">DevChallenge</a> Hacktoberfest tem como objetivo celebrar e incentivar 
 o software de código aberto, além de contribuir com a comunidade de tecnologia para prática de desenvolvimento e troca de conhecimentos.
 
 # Como participar
