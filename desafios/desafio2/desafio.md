@@ -30,6 +30,7 @@ Consumir serviço, seguindo a [documentação da API](https://rickandmortyapi.co
 - Utilizar o end point: {GET} https://rickandmortyapi.com/api/character/
 - Com o resultado, mostrar as seguintes informações: id, name, status, species e image.
 - Monte a interface utilizando cards.
+- Sua aplicação deve ser responsiva, pode usar o css normal ou outro pré processador de sua preferência.
 - Recomendados usar algum framework javascript (React ou Vue) ou usar o javascript vanila
 
 ### Extras
