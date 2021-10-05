@@ -40,11 +40,43 @@ Disponível dia 04/10/2021
 ## Backend:
 Disponível dia 04/10/2021
 
-## Documentação:
-Disponível dia 04/10/2021
 
+# Projetos abertos
+
+## DevChallenge:
+
+[Frontend](https://github.com/Lorenalgm/DevChallenge) - Ajude a melhorar o código e documentação do front do DevChallenge (ReactJS)
+
+[Backend](https://github.com/Lorenalgm/DevChallengeAPI) - Ajude a melhorar o código e documentação do back do DevChallenge (NodeJS)
+
+## Documentação:
+
+[Open source for newbies](https://github.com/devchallenge-io/open_source_for_newbies): compartilhe dicas para quem está iniciando no mundo do código aberto :)
+
+[Hiring process for newbies](https://github.com/devchallenge-io/hiring_process_for_newbies): compartilhe dicas para desenvolvedores que buscam entrar no mercado de trabalho da tecnologia
+
+# Como funciona
+
+## Para desafios:
+Para os desafios de frontend ou backend [listados acima](#desafios), você deverá:
+1. Faça o fork deste repositório [hacktoberfest-2021]
+2. Leia os requisitos do desafio e desenvolva com a tecnologia de sua preferência
+3. Tente realizar os requisitos bônus para praticar ainda mais suas habilidades :)
+4. Envie cada resolução de desafio como uma pull request neste repositório
 <br>
+Ps: Dentro da pasta <b>resolucoes/nome_do_desafio</b>, crie uma pasta com a tecnologia utilizada+seu user e adicione sua solução dentro dela
+<br>Exemplo: "javascript-lorenalgm"
+5. Aguarde a revisão e aprovação da sua PR.
+
+## Para projetos abertos
+
+Para os projetos abertos de documentação ou do próprio DevChallenge, sua contribuição deverá ser feita nos repositórios dos mesmos. Seguindo a mesma regra de revisão e aprovação feita pela equipe do DevChallenge.
+
+## Comunidade
+Nosso objetivo é ajudar cada vez mais na evolução de desenvolvedores! Por isso, temos uma comunidade exclusiva do DevChallenge no Discord. Caso tenha alguma dúvida sobre os desafios, fique à vontade para pedir ajuda na comunidade! <br> 
+Bora? https://discord.gg/yvYXhGj <br>
 <br>
+Site: https://www.devchallenge.com.br/ <br>
 
 <table style="border-color:transparent">
     <th>
