@@ -14,6 +14,9 @@
 - [Sobre](#sobre)
 - [Como participar](#como-participar)
 - [Desafios](#desafios)
+- [Projetos abertos](#projetos-abertos)
+- [Como funciona](#como-funciona)
+- [Comunidade](#comunidade)
 
 # Sobre
 O <a href="https://www.devchallenge.com.br/">DevChallenge</a> Hacktoberfest tem como objetivo celebrar e incentivar 
@@ -60,17 +63,15 @@ Para os desafios de frontend ou backend [listados acima](#desafios), você dever
 1. Faça o fork deste repositório [hacktoberfest-2021]
 2. Leia os requisitos do desafio e desenvolva com a tecnologia de sua preferência
 3. Tente realizar os requisitos bônus para praticar ainda mais suas habilidades :)
-4. Envie cada resolução de desafio como uma pull request neste repositório
-<br>
-Ps: Dentro da pasta <b>resolucoes/nome_do_desafio</b>, crie uma pasta com a tecnologia utilizada+seu user e adicione sua solução dentro dela
-<br>Exemplo: "javascript-lorenalgm"
+4. Envie cada resolução de desafio como uma pull request neste repositório.
+<br>Dentro da pasta <b>resolucoes/nome_do_desafio</b>, crie uma pasta com a tecnologia utilizada+seu user e adicione sua solução dentro dela. Ex: <b>javascript-lorenalgm</b>
 5. Aguarde a revisão e aprovação da sua PR.
 
 ## Para projetos abertos
 
 Para os projetos abertos de documentação ou do próprio DevChallenge, sua contribuição deverá ser feita nos repositórios dos mesmos. Seguindo a mesma regra de revisão e aprovação feita pela equipe do DevChallenge.
 
-## Comunidade
+# Comunidade
 Nosso objetivo é ajudar cada vez mais na evolução de desenvolvedores! Por isso, temos uma comunidade exclusiva do DevChallenge no Discord. Caso tenha alguma dúvida sobre os desafios, fique à vontade para pedir ajuda na comunidade! <br> 
 Bora? https://discord.gg/yvYXhGj <br>
 <br>
