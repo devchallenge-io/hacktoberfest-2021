@@ -3,9 +3,6 @@
         <a href="https://www.devchallenge.com.br/">
             <img src="https://i.imgur.com/p0Qla3Q.png" alt="Logo" width="700" height="350">
         </a>
-        <br>
-        <img align="center" src="https://i.imgur.com/K01Mixf.png" alt="Logo" width="600" height="100">
-        <br>
         <h3 align="center">DevChallenge Hacktoberfest 2021</h3>
    </p>
 
@@ -35,12 +32,21 @@ você poderá escolher seu prêmio no site do Hacktoberfest, podendo ser uma cam
 # Desafios
 
 ## Frontend:
-Disponível dia 04/10/2021
 
+### Desafio 1
+[Sobre o desafio](./desafios/desafio1/desafio.md)<br>
+[Resoluções do desafio](./resolucoes/desafio1)<br>
+
+### Desafio 2
+- Em breve
 
 ## Backend:
-Disponível dia 04/10/2021
 
+### Desafio 3
+- Em breve
+
+### Desafio 4
+- Em breve
 
 # Projetos abertos
 
