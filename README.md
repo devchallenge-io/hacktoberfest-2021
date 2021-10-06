@@ -38,7 +38,8 @@ você poderá escolher seu prêmio no site do Hacktoberfest, podendo ser uma cam
 [Resoluções do desafio](./resolucoes/desafio1)<br>
 
 ### Desafio 2
-- Em breve
+[Sobre o desafio](./desafios/desafio2/desafio.md)<br>
+
 
 ## Backend:
 
