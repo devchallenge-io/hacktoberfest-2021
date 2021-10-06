@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: 60%;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fafdfe;
+}
