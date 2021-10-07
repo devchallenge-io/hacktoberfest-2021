@@ -20,3 +20,20 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #fafdfe;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2c2c2;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b1b2b5;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 7px 10px 12px 0px #f0f0f0;
+}

@@ -1,6 +1,6 @@
 import * as Styled from "./styles";
 
-const Navegacao = () => {
+const Navegacao = ({ handleReservar }) => {
   return (
     <Styled.Container>
       <Styled.Logo src="/logo.png" />
@@ -9,7 +9,9 @@ const Navegacao = () => {
         <Styled.MenuItem href="#filmescartaz">Filmes em cartaz</Styled.MenuItem>
         <Styled.MenuItem href="#contato">Contato</Styled.MenuItem>
       </Styled.Menu>
-      <Styled.CTAButton>Compre seu ingresso</Styled.CTAButton>
+      <Styled.CTAButton onClick={handleReservar}>
+        Compre seu ingresso
+      </Styled.CTAButton>
     </Styled.Container>
   );
 };

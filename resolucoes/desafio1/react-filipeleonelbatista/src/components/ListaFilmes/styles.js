@@ -28,16 +28,19 @@ export const SectionTitle = styled.h4`
 `;
 
 export const ListContainer = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   gap: 1.4rem;
-  flex-wrap: wrap;
+  padding-bottom: 1.4rem;
+  /* flex-wrap: wrap; */
+  overflow-x: auto;
 `;
 
 export const ListItem = styled.img`
   cursor: pointer;
   width: 17.6rem;
+  min-width: 17.6rem;
   height: 24.8rem;
   background-size: cover;
   background-repeat: no-repeat;

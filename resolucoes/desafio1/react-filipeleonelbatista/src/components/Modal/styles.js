@@ -1,25 +1,28 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Overlay = styled.div`
   display: flex;
-  padding: 2.4rem 4.8rem;
-  gap: 0.4rem;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
 `;
 
-export const CardWrapper = styled.div`
+export const Container = styled.div`
   display: flex;
-  flex-direction: row;
-  width: 90vw;
-  height: 42rem;
+  width: 80vw;
+  height: 80vh;
   background-color: #fff;
-  margin: 1.4rem;
+  box-shadow: 0px 4px 22px rgba(32, 32, 32, 0.14);
   border-radius: 1.4rem;
   overflow: hidden;
-  box-shadow: 0px 4px 22px rgba(32, 32, 32, 0.14);
 `;
 
 export const Movie = styled.img`
-  width: 80%;
+  width: 50%;
   height: auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,7 +35,7 @@ export const InformationContainer = styled.div`
   flex-direction: column;
   gap: 1.6rem;
   overflow-y: auto;
-  max-width: 28rem;
+  flex: 1;
 `;
 
 export const Title = styled.h4`

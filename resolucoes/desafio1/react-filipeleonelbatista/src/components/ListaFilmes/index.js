@@ -1,73 +1,32 @@
+import { useEffect, useState } from "react";
 import * as Styled from "./styles";
 
-const topMovies = [
-  {
-    title: "The Gentlemen1",
-    description:
-      "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
-    image: "https://source.unsplash.com/user/erondu/1600x900",
-  },
-  {
-    title: "The Gentlemen2",
-    description:
-      "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
-    image: "https://source.unsplash.com/user/erondu/1600x900",
-  },
-  {
-    title: "The Gentlemen3",
-    description:
-      "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
-    image: "https://source.unsplash.com/user/erondu/1600x900",
-  },
-  {
-    title: "The Gentlemen4",
-    description:
-      "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
-    image: "https://source.unsplash.com/user/erondu/1600x900",
-  },
-  {
-    title: "The Gentlemen5",
-    description:
-      "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
-    image: "https://source.unsplash.com/user/erondu/1600x900",
-  },
-  {
-    title: "The Gentlemen6",
-    description:
-      "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
-    image: "https://source.unsplash.com/user/erondu/1600x900",
-  },
-  {
-    title: "The Gentlemen5",
-    description:
-      "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
-    image: "https://source.unsplash.com/user/erondu/1600x900",
-  },
-  {
-    title: "The Gentlemen6",
-    description:
-      "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
-    image: "https://source.unsplash.com/user/erondu/1600x900",
-  },
-  {
-    title: "The Gentlemen5",
-    description:
-      "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
-    image: "https://source.unsplash.com/user/erondu/1600x900",
-  },
-];
+const ListaFilmes = ({ title, data }) => {
+  const [movies, setMovies] = useState([]);
 
-const ListaFilmes = () => {
-  return (
-    <Styled.Container>
-      <Styled.SectionTitle>Top Filmes</Styled.SectionTitle>
-      <Styled.ListContainer>
-        {topMovies.map((filme) => (
-          <Styled.ListItem style={{ backgroundImage: `url(${filme.image})` }} />
-        ))}
-      </Styled.ListContainer>
-    </Styled.Container>
-  );
+  useEffect(() => {
+    if (data) setMovies(data);
+  }, [data]);
+
+  if (movies.length === 0) {
+    return null;
+  } else {
+    return (
+      <Styled.Container>
+        <Styled.SectionTitle>{title}</Styled.SectionTitle>
+        <Styled.ListContainer>
+          {movies.map((filme, index) => (
+            <Styled.ListItem
+              key={index}
+              style={{
+                backgroundImage: `url(${process.env.REACT_APP_IMAGE_URL}${filme.image})`,
+              }}
+            />
+          ))}
+        </Styled.ListContainer>
+      </Styled.Container>
+    );
+  }
 };
 
 export default ListaFilmes;

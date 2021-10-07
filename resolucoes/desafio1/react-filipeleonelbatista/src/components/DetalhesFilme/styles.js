@@ -51,6 +51,7 @@ export const InformationContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+  overflow: auto;
 `;
 
 export const Title = styled.h4`
