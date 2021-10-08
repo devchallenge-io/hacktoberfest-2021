@@ -45,7 +45,7 @@ você poderá escolher seu prêmio no site do Hacktoberfest, podendo ser uma cam
 [Sobre o desafio](./desafios/desafio3/desafio.md)<br>
 
 ### Desafio 4
-- Em breve
+[Sobre o desafio](./desafios/desafio4/desafio.md)<br>
 
 # Projetos abertos
 
