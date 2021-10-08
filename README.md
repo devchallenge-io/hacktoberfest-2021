@@ -12,7 +12,7 @@
 - [Como participar](#como-participar)
 - [Desafios](#desafios)
 - [Projetos abertos](#projetos-abertos)
-- [Como funciona](#como-funciona)
+- [Como contribuir](#como-contribuir)
 - [Comunidade](#comunidade)
 
 # Sobre
@@ -25,7 +25,7 @@ O evento acontecerá durante todo o mês de outubro de 2021. Para participar, si
 
 1. Inscreva-se em: https://hacktoberfest.digitalocean.com/
 2. Entre na comunidade do Discord do DevChallenge: https://discord.gg/a8gtgBf3
-3. Participe dos desafios ou projetos abertos do DevChallenge, contribuindo com 4 pull requests até o fim do mês de outubro
+3. Participe dos desafios abaixo ou projetos abertos do DevChallenge, contribuindo com 4 pull requests até o fim do mês de outubro.
 4. Se a suas contribuições forem aprovadas com sucesso por nossa equipe de moderação, 
 você poderá escolher seu prêmio no site do Hacktoberfest, podendo ser uma camisa ou plantar uma árvore :)
 
@@ -35,11 +35,9 @@ você poderá escolher seu prêmio no site do Hacktoberfest, podendo ser uma cam
 
 ### Desafio 1
 [Sobre o desafio](./desafios/desafio1/desafio.md)<br>
-[Resoluções do desafio](./resolucoes/desafio1)<br>
 
 ### Desafio 2
 [Sobre o desafio](./desafios/desafio2/desafio.md)<br>
-
 
 ## Backend:
 
@@ -63,15 +61,15 @@ você poderá escolher seu prêmio no site do Hacktoberfest, podendo ser uma cam
 
 [Hiring process for newbies](https://github.com/devchallenge-io/hiring_process_for_newbies): compartilhe dicas para desenvolvedores que buscam entrar no mercado de trabalho da tecnologia
 
-# Como funciona
+# Como contribuir
 
 ## Para desafios:
-Para os desafios de frontend ou backend [listados acima](#desafios), você deverá:
-1. Faça o fork deste repositório [hacktoberfest-2021]
+Para os desafios de frontend ou backend [listados acima](#desafios):
+1. Faça o fork deste repositório <b>hacktoberfest-2021</b>
 2. Leia os requisitos do desafio e desenvolva com a tecnologia de sua preferência
-3. Tente realizar os requisitos bônus para praticar ainda mais suas habilidades :)
+3. Tente realizar os requisitos bônus para praticar ainda mais suas habilidades
 4. Envie cada resolução de desafio como uma pull request neste repositório.
-<br>Dentro da pasta <b>resolucoes/nome_do_desafio</b>, crie uma pasta com a tecnologia utilizada+seu user e adicione sua solução dentro dela. Ex: <b>javascript-lorenalgm</b>
+<br>Ps: você deverá enviar a sua solução dentro da pasta [resolucoes](./resolucoes). Lembre-se de colocá-la em uma pasta com o título ``[tecnologia utilizada]-[seu user]``. Ex: <b>javascript-lorenalgm</b>
 5. Aguarde a revisão e aprovação da sua PR.
 
 ## Para projetos abertos

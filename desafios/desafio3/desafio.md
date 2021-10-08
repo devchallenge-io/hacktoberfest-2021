@@ -27,9 +27,8 @@ O desafio consiste em criar uma API REST que será servida para uma loja de vend
 Desenvolver uma API que será consumida para a montagem das prateleiras da loja.
 
 ### Requisitos:
-- Sua API deverá conter informações pertinentes para monstagem das prateleiras dos produtos
+- Sua API deverá conter informações pertinentes para montagem das prateleiras dos produtos
 - Deverá usar os metodos GET e POST.
-- Recomendados usar o Node.js para esse desafio, mas sinta-se a vontade para usar outra stack de suas preferência
 
 **POST** ```/bonestore/product``` 
 - Esse método deve receber um produto novo e inseri-lo em um banco de dados para ser consumido pela própria API.
@@ -80,12 +79,12 @@ Desenvolver uma API que será consumida para a montagem das prateleiras da loja.
 
 ### Extras
 
-- Utilizar Cache
 - Autenticação nas requisições
+- Utilizar Cache
 - Implementar formas de usar os mestodos PUT e DELETE
 
 ### Dicas
-Nesse desafio você poderá criar o design da API da forma que preferir, então pode deixar a criatividade agir o/
+Para realizar os testes da API você pode utilizar ferramentas como o Insomnia ou Postman.
 
 ## Exemplos
 - [Repositório com APIs Publicas](https://github.com/public-apis/public-apis)

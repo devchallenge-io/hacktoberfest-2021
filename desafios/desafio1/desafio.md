@@ -1,5 +1,6 @@
 <br />
 <p align="center">
+  <img width="10%" align="center" src="../../recursos/icon.svg"/>
   
   <h3 align="center">Desafio 1</h3>
 

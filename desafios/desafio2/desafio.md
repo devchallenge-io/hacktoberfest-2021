@@ -24,7 +24,7 @@
 Desenvolver uma aplicação web (de uma página) que consuma uma API e mostre o resultado.
 
 ### Objetivo: 
-Consumir serviço, seguindo a [documentação da API](https://rickandmortyapi.com/documentation/#introduction) fornecida e desenvolver uma aplicação com os dados retornadosda API.
+Consumir serviço, seguindo a [documentação da API](https://rickandmortyapi.com/documentation/#introduction) fornecida e desenvolver uma aplicação com os dados retornados da API.
 
 ### Requisitos:
 - Utilizar o end point: {GET} https://rickandmortyapi.com/api/character/
@@ -42,7 +42,7 @@ Consumir serviço, seguindo a [documentação da API](https://rickandmortyapi.co
 Nesse desafio você poderá criar o design da forma que preferir, então pode deixar a criatividade agir o/
 
 ## Exemplos
-- O foco é usar a criatividade e usar esse desafio para aprender, porém recomendamos o seguinte video aula do youtube que é criado uma pokedex que tem cards dos pokemons , se baseando nesse tutorial ja é possivel desenvolver sua propia aplicação do Rick and Morty
+- O foco é usar a criatividade e usar esse desafio para aprender! Recomendamos o seguinte video aula do youtube onde é criada uma pokedex que tem cards dos pokemons. Baseando-se nesse tutorial já é possivel desenvolver sua propia aplicação do Rick and Morty
 https://youtu.be/Uptu3NrBFBM
 
 ## Recursos
