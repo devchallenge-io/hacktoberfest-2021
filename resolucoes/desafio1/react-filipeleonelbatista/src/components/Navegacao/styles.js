@@ -4,33 +4,19 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 6.2rem;
   padding: 2.4rem 4.8rem;
-  justify-content: space-between;
   background-color: transparent;
 `;
 
 export const Logo = styled.img`
   cursor: pointer;
+  margin-right: auto;
 `;
 
-export const CTAButton = styled.button`
-  cursor: pointer;
-  width: fit-content;
-  padding: 1.4rem 2.8rem;
-  border-radius: 2.8rem;
-
-  font-weight: bold;
-  font-size: 1.4rem;
-  color: #fff;
-
-  border: none;
-  background-color: #d71f24;
-  transition: filter 0.2s;
-
-  &:hover {
-    filter: brightness(1.2);
-  }
+export const EmptyContainer = styled.div`
+  margin-left: auto;
 `;
 
 export const Menu = styled.div`

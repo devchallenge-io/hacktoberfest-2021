@@ -1,7 +1,12 @@
 import { useEffect, useState } from "react";
 import * as Styled from "./styles";
 
-const ListaFilmes = ({ title, data }) => {
+const ListaFilmes = ({
+  title,
+  data,
+  handleSelectMovie,
+  showButton = false,
+}) => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -18,6 +23,7 @@ const ListaFilmes = ({ title, data }) => {
           {movies.map((filme, index) => (
             <Styled.ListItem
               key={index}
+              onClick={() => handleSelectMovie(filme.id, showButton)}
               style={{
                 backgroundImage: `url(${process.env.REACT_APP_IMAGE_URL}${filme.image})`,
               }}

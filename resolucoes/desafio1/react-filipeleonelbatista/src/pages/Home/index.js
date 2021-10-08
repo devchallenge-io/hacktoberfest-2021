@@ -53,15 +53,10 @@ const Home = () => {
     }
   }
 
-  async function handleSelectMovie(id) {
-    const result = await api.get(`${id}${url}`);
+  async function handleSelectMovie(id, showButton) {
     setSelectedMovie({
-      id: result.data.id,
-      title: result.data.title,
-      image: result.data.poster_path,
-      backdrop: result.data.backdrop_path,
-      description: result.data.overview,
-      dtLancamento: result.data.release_date,
+      id,
+      showButton,
     });
   }
 
@@ -73,22 +68,37 @@ const Home = () => {
   }, []);
 
   useEffect(() => {
-    if (destaquesList.length > 0) handleSelectMovie(destaquesList[0].id);
+    if (destaquesList.length > 0) handleSelectMovie(destaquesList[0].id, true);
   }, [destaquesList]);
 
   return (
     <>
       <Modal isShow={isShow} data={modalMovie} handleClose={handleCloseModal} />
-      <Navegacao handleReservar={handleOpenModal} />
+      <Navegacao
+        handleReservar={handleOpenModal}
+        disabled={!selectedMovie.showButton}
+      />
       <Destaques
         id="destaques"
         data={destaquesList}
         handleReservar={handleOpenModal}
       />
-      <ListaFilmes id="filmescartaz" title="Em cartaz" data={nowPlaying} />
-      <DetalhesFilme handleReservar={handleOpenModal} data={selectedMovie} />
-      <ListaFilmes id="filmescartaz" title="Popular" data={popular} />
       <ListaFilmes
+        handleSelectMovie={handleSelectMovie}
+        id="filmescartaz"
+        title="Em cartaz"
+        data={nowPlaying}
+        showButton
+      />
+      <DetalhesFilme handleReservar={handleOpenModal} data={selectedMovie} />
+      <ListaFilmes
+        handleSelectMovie={handleSelectMovie}
+        id="filmescartaz"
+        title="Popular"
+        data={popular}
+      />
+      <ListaFilmes
+        handleSelectMovie={handleSelectMovie}
         id="filmescartaz"
         title="Melhores avalhações"
         data={topList}

@@ -37,7 +37,8 @@ export const CardWrapper = styled.div`
 `;
 
 export const Movie = styled.img`
-  width: 38rem;
+  width: 100%;
+  min-width: 38rem;
   height: 24rem;
   border-radius: 0.8rem;
   background-size: cover;
