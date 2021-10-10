@@ -27,11 +27,11 @@ O desafio consiste em criar uma API REST que será servida para uma loja de vend
 Desenvolver uma API que será consumida para a montagem das prateleiras da loja.
 
 ### Requisitos:
-- Sua API deverá conter informações pertinentes para montagem das prateleiras dos produtos
-- Deverá usar os metodos GET e POST.
+- Sua API deverá conter informações pertinentes para montagem das prateleiras dos produtos.
+- Deverá usar os metodos GET, POST, UPDATE, DELETE.
 
 **POST** ```/bonestore/product``` 
-- Esse método deve receber um produto novo e inseri-lo em um banco de dados para ser consumido pela própria API.
+- Esse método deve receber um produto novo e inseri-lo no conjunto de dados para ser consumido pela própria API.
 
 ```JSON
 {
@@ -81,7 +81,7 @@ Desenvolver uma API que será consumida para a montagem das prateleiras da loja.
 
 - Autenticação nas requisições
 - Utilizar Cache
-- Implementar formas de usar os mestodos PUT e DELETE
+- Salvar os dados em algum banco de dados , por exemplo: SQLite
 
 ### Dicas
 Para realizar os testes da API você pode utilizar ferramentas como o Insomnia ou Postman.
