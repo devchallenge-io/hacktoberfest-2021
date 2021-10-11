@@ -127,7 +127,6 @@ const Modal = ({ data, isShow, handleClose }) => {
         />
         <Styled.InformationContainer>
           <Styled.Title>{data.title}</Styled.Title>
-          {console.log(data)}
           {data.trailer && (
             <Styled.Title>
               <a
