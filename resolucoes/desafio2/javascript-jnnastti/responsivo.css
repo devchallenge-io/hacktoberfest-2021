@@ -1,0 +1,45 @@
+@media screen and (max-width: 700px){
+    main {
+        margin-left: 0!important;
+        text-align: center;
+    }
+    
+    .home {
+        margin-top: -10%;
+    }
+    .home h1 {
+        font-size: 80px;
+    }
+
+    .home h3 {
+        font-size: 20px;
+    }
+
+    .conteudo {
+        margin-top: 50px;
+    }
+
+    #lista .item {
+        grid-template-columns: 250px;
+    }
+
+    #lista .item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+    }
+
+    #lista .item div {
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .info {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
+    .items {
+        display: block;
+    }
+}
