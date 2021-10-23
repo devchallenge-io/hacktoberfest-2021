@@ -1,4 +1,4 @@
-<br />
+<br/>
     <p align="center">
         <a href="https://www.devchallenge.com.br/">
             <img src="https://i.imgur.com/p0Qla3Q.png" alt="Logo" width="700" height="350">
@@ -7,7 +7,6 @@
    </p>
 
 ## Índice
-
 - [Sobre](#sobre)
 - [Como participar](#como-participar)
 - [Desafios](#desafios)
