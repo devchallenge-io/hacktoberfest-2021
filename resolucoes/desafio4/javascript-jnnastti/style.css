@@ -1,0 +1,47 @@
+section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/img/wpp.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+section div {
+    width: 50%;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #cdb4dbb4;
+}
+
+#frase p {
+    font-size: 24px;
+}
+
+select, button {
+    margin: 20px;
+    background-color: #cdb4dbb4;
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+
+button {
+    background-color: #7400b8;
+    cursor: pointer;
+    color: #f4f4f4;
+    transition: all 0.3s;
+    border: none;
+}
+
+button:hover {
+    background-color: #560bad;
+}
