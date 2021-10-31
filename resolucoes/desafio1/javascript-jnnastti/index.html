@@ -1,0 +1,340 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        
+        <link href="./style.css" rel="stylesheet" />
+      
+        <link rel="icon" href="../../assets/img/logo.ico" type="image/svg" />
+      
+        <meta charset="utf-8">
+        <meta name="author" content="Jannaina ">
+        <meta name="description" content="Desafio 1 Hacktober - Cinema">
+        <meta name="keywords" content="Cinema, Filmes, Hacktober">
+      
+        <meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      
+        <title> Cine Janna | Home </title>
+
+    </head>
+
+    <body>
+        <div class="background"></div>
+        <header>
+            <h1> CINE JANNA </h1>
+        </header>
+
+        <nav>
+            <ol>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#filmes">Filmes</a></li>
+                <li><a href="#programacao">Programação</a></li>
+            </ol>
+        </nav>
+
+        <main>
+            <section id="home" class="home">
+                <div>
+                    <h1> CINE <b>JANNA</b> </h1>
+                    <p>
+                        Tenha a melhor experiência no melhor cinema, com conforto e lanches especiais. 
+                        O cine Janna busca tornar aos visitantes a sua sessão única. Somos mais que um cinema, 
+                        somos o Cine Janna.
+                    </p>
+                </div>
+            </section>
+
+            <section id="filmes" class="tabs">
+  
+                <input type="radio" id="tab1" name="tab-control" checked>
+                <input type="radio" id="tab2" name="tab-control">
+
+                <ul>
+                    <li title="Em cartaz">
+                      <label for="tab1" role="button"><span>Em cartaz</span></label>
+                    </li>
+                    <li title="Os melhores">
+                        <label for="tab2" role="button"><span>Os melhores</span></label>
+                    </li>
+                </ul>
+                
+                <div class="slider">
+                    <div class="indicator"></div>
+                </div>
+
+                <div class="content">
+                    <section class="cartaz">
+                        <h2> Em cartaz </h2>
+                        <p>
+                            Verifique os filmes que estão em cartaz e saiba mais informações sobre eles.
+                        </p>
+                        
+                        <div id="wrapper">
+                            <div id="carousel">
+                              <div id="content">
+                              </div>
+                            </div>
+
+                            <button id="prev">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" >
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                              </svg>
+                            </button>
+                            <button id="next">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" >
+                                <path fill="none" d="M0 0h24v24H0V0z" />
+                                <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                              </svg>
+                            </button>
+                          </div>
+                    </section>
+                    <section class="avaliacoes"> 
+                        <h2> As melhores avaliações </h2>
+                        <p>
+                            Verifique os filmes com as melhores avaliações.
+                        </p>
+
+                        <div  id="melhores"></div>
+            
+                    </section>
+                </div>
+            </section>
+            
+
+            <section id="programacao" class="programacao">
+                <div>
+                    <details class="collapse">
+                        <summary class="title">Quinta-feira</summary>
+                        <div class="description">
+                          <div>
+                            <h3> 18:00 - 20:00</h3>
+                            <h3> Sala 001</h3>
+
+                            <h2> A Abelhinha Maya e O Ovo Dourado </h2>
+                            <p><b> Idioma: </b> Português </p>
+                            <p><b> Duração: </b> 120min </p>
+                            <p><b> Classificação: </b> Livre </p>
+                            <hr/>
+                          </div>
+                          <div>
+                            <h3> 18:20 - 20:40</h3>
+                            <h3> Sala 002</h3>
+
+                            <h2> Shang-Chi e a Lenda dos Dez Anéis </h2>
+                            <p><b> Idioma: </b> Inglês </p>
+                            <p><b> Duração: </b> 140min </p>
+                            <p><b> Classificação: </b> 12 Anos </p>
+                            <hr/>
+                          </div>
+                          <div>
+                            <h3> 20:30 - 22:00</h3>
+                            <h3> Sala 001</h3>
+
+                            <h2> Os Croods 2: Uma Nova Era </h2>
+                            <p><b> Idioma: </b> Português </p>
+                            <p><b> Duração: </b> 120min </p>
+                            <p><b> Classificação: </b> Livre </p>
+                            <hr/>
+                          </div>
+                          <div>
+                            <h3> 21:00 - 23:00</h3>
+                            <h3> Sala 002</h3>
+
+                            <h2> Tom e Jerry - O Filme </h2>
+                            <p><b> Idioma: </b> Português </p>
+                            <p><b> Duração: </b> 120min </p>
+                            <p><b> Classificação: </b> Livre </p>
+                          </div>
+                        </div>
+                      </details>
+                    <details class="collapse">
+                        <summary class="title">Sexta-feira</summary>
+                        <div class="description">
+                          <div>
+                            <h3> 18:00 - 20:00</h3>
+                            <h3> Sala 001</h3>
+
+                            <h2> A Abelhinha Maya e O Ovo Dourado </h2>
+                            <p><b> Idioma: </b> Português </p>
+                            <p><b> Duração: </b> 120min </p>
+                            <p><b> Classificação: </b> Livre </p>
+                            <hr/>
+                          </div>
+                          <div>
+                            <h3> 18:20 - 20:40</h3>
+                            <h3> Sala 002</h3>
+
+                            <h2> Shang-Chi e a Lenda dos Dez Anéis </h2>
+                            <p><b> Idioma: </b> Inglês </p>
+                            <p><b> Duração: </b> 140min </p>
+                            <p><b> Classificação: </b> 12 Anos </p>
+                            <hr/>
+                          </div>
+                          <div>
+                            <h3> 20:30 - 22:00</h3>
+                            <h3> Sala 001</h3>
+
+                            <h2> Os Croods 2: Uma Nova Era </h2>
+                            <p><b> Idioma: </b> Português </p>
+                            <p><b> Duração: </b> 120min </p>
+                            <p><b> Classificação: </b> Livre </p>
+                            <hr/>
+                          </div>
+                          <div>
+                            <h3> 21:00 - 23:00</h3>
+                            <h3> Sala 002</h3>
+
+                            <h2> Tom e Jerry - O Filme </h2>
+                            <p><b> Idioma: </b> Português </p>
+                            <p><b> Duração: </b> 120min </p>
+                            <p><b> Classificação: </b> Livre </p>
+                          </div>
+                        </div>
+                    </details>
+                    <details class="collapse">
+                        <summary class="title">Sábado</summary>
+                        <div class="description">
+                          <div>
+                            <h3> 18:00 - 20:00</h3>
+                            <h3> Sala 001</h3>
+
+                            <h2> A Abelhinha Maya e O Ovo Dourado </h2>
+                            <p><b> Idioma: </b> Português </p>
+                            <p><b> Duração: </b> 120min </p>
+                            <p><b> Classificação: </b> Livre </p>
+                            <hr/>
+                          </div>
+                          <div>
+                            <h3> 18:20 - 20:40</h3>
+                            <h3> Sala 002</h3>
+
+                            <h2> Shang-Chi e a Lenda dos Dez Anéis </h2>
+                            <p><b> Idioma: </b> Inglês </p>
+                            <p><b> Duração: </b> 140min </p>
+                            <p><b> Classificação: </b> 12 Anos </p>
+                            <hr/>
+                          </div>
+                          <div>
+                            <h3> 20:30 - 22:00</h3>
+                            <h3> Sala 001</h3>
+
+                            <h2> Os Croods 2: Uma Nova Era </h2>
+                            <p><b> Idioma: </b> Português </p>
+                            <p><b> Duração: </b> 120min </p>
+                            <p><b> Classificação: </b> Livre </p>
+                            <hr/>
+                          </div>
+                          <div>
+                            <h3> 21:00 - 23:00</h3>
+                            <h3> Sala 002</h3>
+
+                            <h2> Tom e Jerry - O Filme </h2>
+                            <p><b> Idioma: </b> Português </p>
+                            <p><b> Duração: </b> 120min </p>
+                            <p><b> Classificação: </b> Livre </p>
+                          </div>
+                        </div>
+                    </details>
+                      <details class="collapse">
+                        <summary class="title">Domingo</summary>
+                        <div class="description">
+                          <div>
+                            <h3> 18:00 - 20:00</h3>
+                            <h3> Sala 001</h3>
+
+                            <h2> A Abelhinha Maya e O Ovo Dourado </h2>
+                            <p><b> Idioma: </b> Português </p>
+                            <p><b> Duração: </b> 120min </p>
+                            <p><b> Classificação: </b> Livre </p>
+                            <hr/>
+                          </div>
+                          <div>
+                            <h3> 18:20 - 20:40</h3>
+                            <h3> Sala 002</h3>
+
+                            <h2> Shang-Chi e a Lenda dos Dez Anéis </h2>
+                            <p><b> Idioma: </b> Inglês </p>
+                            <p><b> Duração: </b> 140min </p>
+                            <p><b> Classificação: </b> 12 Anos </p>
+                            <hr/>
+                          </div>
+                          <div>
+                            <h3> 20:30 - 22:00</h3>
+                            <h3> Sala 001</h3>
+
+                            <h2> Os Croods 2: Uma Nova Era </h2>
+                            <p><b> Idioma: </b> Português </p>
+                            <p><b> Duração: </b> 120min </p>
+                            <p><b> Classificação: </b> Livre </p>
+                            <hr/>
+                          </div>
+                          <div>
+                            <h3> 21:00 - 23:00</h3>
+                            <h3> Sala 002</h3>
+
+                            <h2> Tom e Jerry - O Filme </h2>
+                            <p><b> Idioma: </b> Português </p>
+                            <p><b> Duração: </b> 120min </p>
+                            <p><b> Classificação: </b> Livre </p>
+                          </div>
+                        </div>
+                    </details>
+                </div>
+
+                <div>
+                    <h2> Os melhores horários no melhor lugar </h2>
+                    <p>
+                        Verifique a nossa Programação e venha nos visitar! Garantimos o seu conforto 
+                        e uma experiência incrivel!
+                    </p>
+                </div>
+            </section>
+
+            <div id="info" class="modalDialog">
+              <div>
+                  <a href="#" title="Close" class="close">
+                      <div class="close-container">
+                          <div class="leftright"></div>
+                          <div class="rightleft"></div>
+                      </div>
+                  </a>
+                  <h2> Mias informações </h2>
+
+                  <div class="infofilme">
+                    <img src="" id="imgFilme"/>
+
+                    <div>
+                      <h4> Nome: </h4>
+                      <p id="nomeFilme"></p>
+
+                      <h4> Legendado: </h4>
+                      <p id="legendadoFilme"></p>
+
+                      <h4> Dublado: </h4>
+                      <p id="dubladoFilme"></p>
+
+                      <h4> Descrição: </h4>
+                      <p id="descricaoFilme"></p>
+                    </div>
+                  </div>
+
+                  
+              </div>
+          </div>
+            <footer>
+                <p> by: @jnnastti</p>
+            </footer>
+
+  
+        </main>
+
+
+    </body>
+
+    <script src="./filmesCartaz.js"></script>
+    <script src="./melhoresFilmes.js"></script>
+    <script src="./main.js"></script>
+
+</html>
