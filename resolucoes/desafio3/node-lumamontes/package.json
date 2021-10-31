@@ -1,0 +1,17 @@
+{
+  "name": "node-lumamontes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "scripts": {
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.95.12",
+    "mysql": "^2.18.1"
+  }
+}
