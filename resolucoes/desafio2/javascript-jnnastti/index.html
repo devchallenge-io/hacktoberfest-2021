@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+
+        <link href="./styles.css" rel="stylesheet" />
+        <link href="./responsivo.css" rel="stylesheet" />
+      
+        <meta charset="utf-8">
+        <meta name="author" content="Jannaina ">
+        <meta name="description" content="Desafio 2 Hacktober - API">
+        <meta name="keywords" content="API, Rick, Morty">
+      
+        <meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      
+        <title> Rick & Morty </title>
+
+    </head>
+
+    <body>
+        <div class="background"></div>
+        <header>
+            <h3> @Jnnastti </h3>
+        </header>
+
+        <main>
+            <section class="home">
+                <div>
+                    <h1> RICK & MORTY API </h1>
+                </div>
+            </section>
+
+            <section class="conteudo">
+                <h1> Clique nos personagens para saber mais </h1>
+
+                <div id="lista">
+                </div>
+            </section>
+
+            <div id="info" class="modalDialog">
+                <div>
+                    <a href="#" title="Close" class="close">
+                        <div class="close-container">
+                            <div class="leftright"></div>
+                            <div class="rightleft"></div>
+                        </div>
+                    </a>
+
+                    <h2 id="nome"></h2>
+                    <div class="info">
+
+                        <img src="" id="imagem"/>
+
+                        <div class="cont">
+                            <div class="items">
+                                <div class="item">
+                                    <h4> Status: <span id="status"></span></h4>
+                                    
+                                </div>
+                                <div class="item">
+                                    <h4> Especie: <span id="especie"></span></h4>
+                                </div>
+                            </div>
+
+                            <div class="items">
+                                <div class="item">
+                                    <h4> Origem: <span id="origin"></span></h4>
+                                </div>
+                                <div class="item">
+                                    <h4> Localização atual: <span id="location"></span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h3> Lista de episodios</h3>
+                            <div id="episodios">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </main>
+        <footer>
+            <p> by: @jnnastti</p>
+        </footer>
+
+    </body>
+    <script src="./main.js"></script>
+
+</html>
