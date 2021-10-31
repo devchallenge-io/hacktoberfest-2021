@@ -1,4 +1,3 @@
-import movies from "../../movies.json";
 
 function MovieDetails() {
   

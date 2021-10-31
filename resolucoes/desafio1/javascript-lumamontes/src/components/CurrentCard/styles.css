@@ -1,0 +1,10 @@
+.currentCard-container {
+    display: flex;
+    width: 90vw;
+    align-items: center;
+    justify-content: center;
+}
+.currentCard-container img {
+    width: 11rem;
+    height: 16rem;
+}

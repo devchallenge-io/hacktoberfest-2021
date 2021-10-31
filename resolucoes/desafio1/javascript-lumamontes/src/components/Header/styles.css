@@ -1,0 +1,34 @@
+.movie-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.main-color {
+    color: #EF0000;
+}
+.secondary-color{
+   color: #FFE600;
+}
+
+.movie-header .header-logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+
+.movie-header .nav-link {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
+.movie-header .nav-link a{
+    color: #FFFF;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.movie-header .nav-link a:hover{
+    color: #EF0000;
+}
